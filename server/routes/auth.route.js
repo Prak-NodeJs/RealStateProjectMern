@@ -3,7 +3,7 @@ import { signUp, signIn, google } from '../controller/auth.controller.js';
 
 const router = express.Router();
 
-
+console.log("helo")
 router.post("/signup", signUp)
 router.post("/signin", signIn)
 router.post('/google', google)
